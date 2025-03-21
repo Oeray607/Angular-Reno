@@ -1,0 +1,33 @@
+.carousel-img {
+    width: 100%;
+    height: 70vh; 
+    object-fit: cover; 
+    border-radius: 10px;
+  }
+  .hr {
+    color:red
+  }
+  
+  .dik-cizgi {
+    width: 2px; 
+    height: 100%; 
+    background-color: #ccc; 
+  }
+  .ozellikler {
+    margin-left: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #last {
+    margin-bottom: 20px;
+  }
+  .uyari {
+    margin-top: 50px;
+    font-size: smaller;
+    margin-left:20px;
+  }
+  .btn-primary {
+    background-color: #ff6600; /* Turuncu Renault rengi */
+    border: none;
+  }

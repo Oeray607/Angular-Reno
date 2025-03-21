@@ -1,0 +1,134 @@
+<div class="container mt-5">
+    <div class="row">
+      <!-- Carousel Sol Taraf -->
+      <div class="col-md-7"> <!-- Daha geniş alan -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"></button>
+            
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://www.hedefoto.com/cdn/Delivery/Public/Image/Download/taliant_4_3831821911.jpg" 
+              class="carousel-img" alt="Görsel Yüklenemedi!">
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.hedefoto.com/cdn/Delivery/Public/Image/Download/taliant_1_9261237235.jpg" 
+              class="carousel-img" alt="Görsel Yüklenemedi!">
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.hedefoto.com/cdn/Delivery/Public/Image/Download/taliant_2_9257839735.jpg" 
+              class="carousel-img" alt="Görsel Yüklenemedi!">
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.hedefoto.com/cdn/Delivery/Public/Image/Download/taliant_6_4795553374.jpg" 
+              class="carousel-img" alt="Görsel Yüklenemedi!">
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.hedefoto.com/cdn/Delivery/Public/Image/Download/taliant_3_9846728821.jpg" 
+              class="carousel-img" alt="Görsel Yüklenemedi!">
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.hedefoto.com/cdn/Delivery/Public/Image/Download/taliant_5_9696431722.jpg" 
+              class="carousel-img" alt="Görsel Yüklenemedi!">
+            </div>
+            
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+  
+      <!-- Özellikler Sağ Taraf -->
+      <div class="col-md-5 d-flex align-items-center">
+        <div class="p-4 border rounded w-100">
+          <h2>Renault Taliant</h2>
+          <p><strong>Fiyat:</strong> ₺1.111.500</p>
+      
+          <!-- Motor Bilgileri -->
+          <h4 class="mt-3">Motor</h4>
+          <ul class="list-unstyled ps-3">
+            <li><strong>Motor Tipi:</strong> 1.0 turbo x-tronic 90 bg</li>
+            <li><strong>Beygir Gücü:</strong> 90 HP</li>
+            <li><strong>Şanzıman:</strong> cvt otomatik</li>
+            <li><strong>Tork (Nm):</strong> 142</li>
+            <li><strong>Vites Sayısı:</strong> sürekli değişken</li>
+            <li><strong>Yakıt Tipi:</strong> Benzinli</li>
+            
+          </ul>
+      
+          <!-- Yakıt Tüketimi Bilgileri -->
+          <h4 class="mt-3">Yakıt Tüketimi</h4>
+          <ul class="list-unstyled ps-3">
+            <li><strong>Şehir İçi:</strong> 7L/100km</li>
+            <li><strong>Şehir Dışı:</strong> 5L/100km</li>
+            <li><strong>Ortalama:</strong> 5.9L/100km</li>
+          </ul>
+      
+          <button class="btn btn-primary w-100" (click)="UyariMesaji()">Online Satın Al</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="text-center my-5">
+    <hr class="hr">
+    <h3>Teknik Özellikler</h3>
+    <hr class="hr">
+  </div>
+  <div class="row">
+    <!-- Sol Taraf -->
+    <div class="col-md-6">
+      <hr>
+      <h5 class="ozellikler"><b>Boyutlar ve Ağırlık</b></h5>
+      <hr>
+        <div class="ozellikler"><strong>Uzunluk:</strong> 4.396 mm</div>
+        <div class="ozellikler"><strong>Genişlik:</strong> 1.848 mm</div>
+        <div class="ozellikler"><strong>Yükseklik:</strong> 1.501 mm</div>
+        <div class="ozellikler"><strong>Bagaj Hacmi:</strong> 628 L</div>
+        <div class="ozellikler"><strong>Boş Ağırlık:</strong> 1.200 kg</div>
+        <hr>
+        <h5 class="ozellikler"><b>Performans</b></h5>
+        <hr>
+        <div class="ozellikler"><strong>0-100 km/s Hızlanma:</strong> 14.0 sn</div>
+        <div class="ozellikler"><strong>Maksimum Hız:</strong> 169 km/s</div>
+        <div class="ozellikler"><strong>Yakıt Deposu:</strong> 50 L</div>
+        <div class="ozellikler"><strong>CO₂ Emisyonu:</strong> 134 g/km</div>
+    </div>
+    
+    <!-- Sağ Taraf -->
+    <div class="col-md-6">
+      <hr>
+      <h5 class="ozellikler">Şasi ve Süspansiyon</h5>
+      <hr>
+      <div class="ozellikler"><strong>Ön Süspansiyon:</strong> Bağımsız MacPherson</div>
+      <div class="ozellikler"><strong>Arka Süspansiyon:</strong> Çoklu bağlantı</div>
+      <div class="ozellikler"><strong>Fren Sistemi:</strong> Dört tekerlek disk</div>
+      <div class="ozellikler"><strong>Direksiyon:</strong> Elektrikli</div>
+      <div class="ozellikler"><strong>Çekiş:</strong> 4x2 Önden Çekişli</div>
+      <hr >
+      <h5 class="ozellikler">Güvenlik Özellikleri</h5>
+      <hr>
+  
+        <div class="ozellikler"><strong>ABS:</strong> Var</div>
+        <div class="ozellikler"><strong>ESP:</strong> Var</div>
+        <div class="ozellikler"><strong>Şerit Takip Asistanı:</strong> Yok</div>
+        <div id="last" class="ozellikler"><strong>Acil Fren Desteği:</strong> Yok</div>
+  
+    </div>
+    <hr class="hr">
+    <div><p class="uyari">*Gösterilen Renault Austral modeli temsilidir, model üzerindeki aksesuarlar ve ekipmanlar ile satılanlar farklılık gösterebilir.</p></div>
+  
+  
+  

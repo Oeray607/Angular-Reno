@@ -1,0 +1,33 @@
+.custom-card {
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+  }
+  .custom-card img {
+    height: 200px; 
+    object-fit: cover; 
+  }
+  .custom-card .card-body {
+    flex-grow: 1; 
+    text-align: center;
+  }
+  .carousel-inner img {
+    border-radius: 20px; 
+    object-fit: cover; 
+    height: 500px; 
+}
+.animate-text {
+  animation: hoverAnimation 1s ease-in-out;
+}
+.carousel-text {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+.hover-effect {
+  transform: scale(1.1);
+  color: #ffcc00; 
+  text-shadow: 0px 0px 10px rgba(255, 204, 0, 0.7);
+}

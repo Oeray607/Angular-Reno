@@ -1,0 +1,16 @@
+.navbar {
+    height: 80px; 
+  } 
+  .renault-logo {
+    height: 50px; 
+    margin-right: 15px; 
+    
+    
+  } 
+  .renault-text {
+    font-size: 28px; 
+    font-weight: bold; 
+    color: rgb(5, 5, 5); /* renk */
+    text-transform: uppercase; 
+  }
+  
